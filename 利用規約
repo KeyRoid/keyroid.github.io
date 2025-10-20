@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms of Service - KeyRoid</title>
+  <meta name="description" content="Terms of Service for the KeyRoid app '絶望チャレンジャー'." />
+  <style>
+    :root { --fg:#111; --muted:#666; --bg:#fff; --card:#f7f7f7; --link:#1a73e8; }
+    body { margin:0; font:16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans JP, sans-serif; color:var(--fg); background:var(--bg); }
+    header, main, footer { max-width:900px; margin:0 auto; padding:20px; }
+    header { padding-top:28px; }
+    h1 { font-size:1.6rem; margin:0 0 6px; }
+    .meta { color:var(--muted); font-size:.9rem; }
+    .langswitch { margin:16px 0 0; display:flex; gap:8px; }
+    .langswitch button { padding:8px 12px; border:1px solid #ddd; background:#fff; cursor:pointer; border-radius:8px; }
+    .langswitch button.active { background:#111; color:#fff; border-color:#111; }
+    .card { background:var(--card); padding:16px; border-radius:12px; }
+    a { color:var(--link); }
+    h2 { margin-top:28px; font-size:1.25rem; }
+    h3 { margin-top:20px; font-size:1.05rem; }
+    table { width:100%; border-collapse:collapse; margin:12px 0; }
+    th, td { border:1px solid #e5e5e5; padding:8px; text-align:left; vertical-align:top; }
+    .muted { color:var(--muted); }
+    .section { margin-top:20px; }
+    .hidden { display:none; }
+    footer { color:var(--muted); font-size:.9rem; padding-bottom:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>利用規約 / Terms of Service</h1>
+    <div class="meta">Developer: <strong>KeyRoid</strong> · Contact: <a href="mailto:support@keyroid.app">support@keyroid.app</a> · Effective: <time>2025-10-20</time></div>
+    <div class="langswitch">
+      <button id="btn-ja" class="active" aria-pressed="true">日本語</button>
+      <button id="btn-en" aria-pressed="false">English</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= Japanese ================= -->
+    <article id="ja">
+      <div class="card section">
+        <p>本規約は、KeyRoid（以下「当方」）が提供するモバイルアプリ「<strong>絶望チャレンジャー</strong>」（以下「本アプリ」）の利用条件を定めるものです。ユーザーは本アプリを利用することで、本規約に同意したものとみなされます。</p>
+      </div>
+
+      <h2>1. 定義</h2>
+      <ul>
+        <li>「本サービス」：本アプリを通じて提供する一切の機能。</li>
+        <li>「ユーザー」：本サービスを利用する全ての者。</li>
+        <li>「コンテンツ」：ユーザーが記録する挑戦内容・メモ・達成状況等のデータ。</li>
+        <li>「有料サービス」：本アプリのプレミアム機能等、対価を要する機能。</li>
+      </ul>
+
+      <h2>2. 規約への同意・未成年</h2>
+      <p>ユーザーは本規約に同意のうえ本サービスを利用するものとします。未成年者は、親権者等の法定代理人の同意を得たうえで利用してください。</p>
+
+      <h2>3. 利用環境とデータの所在</h2>
+      <ul>
+        <li>本アプリの主要データ（設定、挑戦記録、購読状態等）は<strong>ユーザー端末内</strong>に保存されます（例：SharedPreferences、アプリ内ローカルDB）。</li>
+        <li>当方が運営するサーバーへは、現時点で利用者データを送信しません。データの外部送信に移行する場合は、事前にプライバシーポリシーを更新のうえ周知します。</li>
+      </ul>
+
+      <h2>4. 有料サービス（サブスクリプション等）</h2>
+      <ol>
+        <li><strong>価格・期間</strong>：料金、課金周期（月額等）は本アプリ内または各ストアの表示に従います。表示価格は税込です。</li>
+        <li><strong>課金方法</strong>：決済は各ストア（App Store / Google Play）の課金システムを通じて行われます。決済条件・請求日は各ストアの規約が優先します。</li>
+        <li><strong>自動更新</strong>：サブスクリプションは期間満了時に自動更新されます。自動更新の停止・解約は、ユーザーが各ストアの「サブスクリプション管理」から行ってください。</li>
+        <li><strong>解約の効力</strong>：現在の有効期間が満了するまでサービスは継続し、期間途中の解約でも日割・差額返金は行われません。</li>
+        <li><strong>購入の復元</strong>：端末変更等の際は、本アプリの「購入を復元」機能を実行するか、同一ストアアカウントで再ログインしてください。</li>
+        <li><strong>返金</strong>：返金可否・方法は各ストアのポリシーに従います。当方では直接の返金を行いません。</li>
+        <li><strong>トライアル</strong>：無料体験が設定されている場合、その内容はストア表示に従います。トライアル終了後は自動的に課金が開始されることがあります。</li>
+        <li><strong>テスト環境</strong>：開発・検証目的で仮想課金ゲートウェイを使用する場合がありますが、本番配布版の課金処理には影響しません。</li>
+      </ol>
+
+      <h2>5. 禁止行為</h2>
+      <ul>
+        <li>法令・公序良俗に違反する行為</li>
+        <li>本アプリの逆コンパイル、リバースエンジニアリング、改変</li>
+        <li>不正アクセス、ボット等による過度な負荷</li>
+        <li>第三者の権利を侵害する行為、誹謗中傷</li>
+        <li>有料サービスの不正利用（不正決済、払い戻し詐取 等）</li>
+      </ul>
+
+      <h2>6. 知的財産権</h2>
+      <p>本アプリおよび本サービスに関する一切の知的財産権は当方または正当な権利者に帰属します。ユーザーは私的利用の範囲を超えて使用できません。</p>
+
+      <h2>7. 保証の否認・免責</h2>
+      <ul>
+        <li>本サービスは<strong>現状有姿</strong>で提供されます。当方は、特定目的適合性・完全性・有用性等について明示黙示を問わず保証しません。</li>
+        <li>当方は、ユーザー間またはユーザーと第三者との間で生じた紛争について、一切の責任を負いません。</li>
+        <li>端末故障・OSアップデート等によりデータが消失した場合でも、当方は責任を負いません（端末内保存のため）。重要データはユーザーの責任でバックアップしてください。</li>
+      </ul>
+
+      <h2>8. 医療行為ではない旨</h2>
+      <p>本アプリは自己記録・内省支援ツールであり、医療・診断・治療・カウンセリングの提供を目的とするものではありません。心身の不調を感じる場合は、必ず医療機関等の専門家にご相談ください。</p>
+
+      <h2>9. サービスの変更・停止</h2>
+      <p>当方は、ユーザーへの事前通知の有無にかかわらず、本サービスの全部または一部を変更・中断・終了することができます。</p>
+
+      <h2>10. 規約の変更</h2>
+      <p>当方は、本規約を随時改定できます。改定後の規約は、本ページに掲示した時点から効力を生じます。</p>
+
+      <h2>11. 準拠法・裁判管轄</h2>
+      <p>本規約は日本法を準拠法とし、本サービスに関して紛争が生じた場合、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+      <h2>12. 連絡先</h2>
+      <p>本規約に関するお問い合わせ： <a href="mailto:support@keyroid.app">support@keyroid.app</a></p>
+    </article>
+
+    <!-- ================= English ================= -->
+    <article id="en" class="hidden">
+      <div class="card section">
+        <p>These Terms of Service (“Terms”) govern your use of the mobile application <strong>Despair Challenger</strong> provided by KeyRoid (“we”, “us”). By using the App, you agree to these Terms.</p>
+      </div>
+
+      <h2>1. Definitions</h2>
+      <ul>
+        <li>“Service”: All features provided through the App.</li>
+        <li>“User”: Any person who uses the Service.</li>
+        <li>“Content”: Challenge notes, entries, dates, completion status recorded by the User.</li>
+        <li>“Paid Services”: Premium features that require payment.</li>
+      </ul>
+
+      <h2>2. Consent & Minors</h2>
+      <p>Use of the Service constitutes acceptance of these Terms. Minors must obtain consent from a legal guardian.</p>
+
+      <h2>3. Environment & Data Location</h2>
+      <ul>
+        <li>Core data (settings, challenge records, subscription state) are stored <strong>on the device</strong> (e.g., SharedPreferences, local DB).</li>
+        <li>No user data is sent to our servers at this time. If this changes, we will update the Privacy Policy in advance.</li>
+      </ul>
+
+      <h2>4. Paid Services (Subscriptions)</h2>
+      <ol>
+        <li><strong>Price/Term</strong>: Fees and billing cycles are shown in the App or store listings; prices include applicable taxes.</li>
+        <li><strong>Payment</strong>: Processed via App Store / Google Play billing systems; store terms prevail.</li>
+        <li><strong>Auto-Renewal</strong>: Subscriptions renew automatically unless cancelled in each store’s subscription management.</li>
+        <li><strong>Effect of Cancellation</strong>: Service continues until the end of the current term; no proration or partial refunds.</li>
+        <li><strong>Restore Purchases</strong>: Use the “Restore Purchases” action or sign in with the same store account.</li>
+        <li><strong>Refunds</strong>: Handled under each store’s policies; we do not issue refunds directly.</li>
+        <li><strong>Trials</strong>: If available, conditions are shown by the store; charges may start automatically after trial ends.</li>
+        <li><strong>Test Environments</strong>: A sandbox gateway may be used for QA; this does not affect production billing.</li>
+      </ol>
+
+      <h2>5. Prohibited Conduct</h2>
+      <ul>
+        <li>Violations of laws or public order</li>
+        <li>Reverse engineering, decompilation, modification</li>
+        <li>Unauthorized access, excessive load via bots</li>
+        <li>Infringing third-party rights, defamation</li>
+        <li>Abuse of paid features or fraudulent chargebacks</li>
+      </ul>
+
+      <h2>6. IP Rights</h2>
+      <p>All intellectual property rights to the App and Service belong to us or rightful owners. Non-personal private use only.</p>
+
+      <h2>7. Disclaimer & Limitation of Liability</h2>
+      <ul>
+        <li>The Service is provided <strong>“as is”</strong> without warranties of any kind.</li>
+        <li>We are not liable for disputes between Users or with third parties.</li>
+        <li>We are not liable for data loss due to device/OS issues; please back up important data.</li>
+      </ul>
+
+      <h2>8. Not Medical Advice</h2>
+      <p>The App is a self-reflection tool; it is not intended to diagnose, treat, or provide counseling. Seek professional help if needed.</p>
+
+      <h2>9. Changes to the Service</h2>
+      <p>We may modify, suspend, or terminate the Service at any time.</p>
+
+      <h2>10. Changes to Terms</h2>
+      <p>We may revise these Terms; updates take effect when posted on this page.</p>
+
+      <h2>11. Governing Law & Jurisdiction</h2>
+      <p>These Terms are governed by Japanese law; exclusive jurisdiction lies with the Tokyo District Court.</p>
+
+      <h2>12. Contact</h2>
+      <p><a href="mailto:support@keyroid.app">support@keyroid.app</a></p>
+    </article>
+  </main>
+
+  <footer>
+    <div>© <span id="y"></span> KeyRoid</div>
+  </footer>
+
+  <script>
+    const $ = sel => document.querySelector(sel);
+    const ja = $('#ja'), en = $('#en'), bja = $('#btn-ja'), ben = $('#btn-en');
+    const setLang = (lang) => {
+      if (lang === 'en') { en.classList.remove('hidden'); ja.classList.add('hidden'); ben.classList.add('active'); bja.classList.remove('active'); }
+      else { ja.classList.remove('hidden'); en.classList.add('hidden'); bja.classList.add('active'); ben.classList.remove('active'); }
+      localStorage.setItem('terms_lang', lang);
+    };
+    bja.onclick = () => setLang('ja');
+    ben.onclick = () => setLang('en');
+    setLang(localStorage.getItem('terms_lang') || (navigator.language.startsWith('ja') ? 'ja' : 'en'));
+    $('#y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
