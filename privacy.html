@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy - KeyRoid</title>
+  <meta name="description" content="Privacy Policy for the KeyRoid app '絶望チャレンジャー'." />
+  <style>
+    :root { --fg:#111; --muted:#666; --bg:#fff; --card:#f7f7f7; --link:#1a73e8; }
+    body { margin:0; font:16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans JP, sans-serif; color:var(--fg); background:var(--bg); }
+    header, main, footer { max-width:900px; margin:0 auto; padding:20px; }
+    header { padding-top:28px; }
+    h1 { font-size:1.6rem; margin:0 0 6px; }
+    .meta { color:var(--muted); font-size:.9rem; }
+    .langswitch { margin:16px 0 0; display:flex; gap:8px; }
+    .langswitch button { padding:8px 12px; border:1px solid #ddd; background:#fff; cursor:pointer; border-radius:8px; }
+    .langswitch button.active { background:#111; color:#fff; border-color:#111; }
+    .card { background:var(--card); padding:16px; border-radius:12px; }
+    a { color:var(--link); }
+    h2 { margin-top:28px; font-size:1.25rem; }
+    h3 { margin-top:20px; font-size:1.05rem; }
+    table { width:100%; border-collapse:collapse; margin:12px 0; }
+    th, td { border:1px solid #e5e5e5; padding:8px; text-align:left; vertical-align:top; }
+    .muted { color:var(--muted); }
+    .section { margin-top:20px; }
+    .hidden { display:none; }
+    footer { color:var(--muted); font-size:.9rem; padding-bottom:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy / プライバシーポリシー</h1>
+    <div class="meta">Developer: <strong>KeyRoid</strong> · Contact: <a href="mailto:support@keyroid.app">support@keyroid.app</a> · Last updated: <time>2025-10-19</time></div>
+    <div class="langswitch">
+      <button id="btn-ja" class="active" aria-pressed="true">日本語</button>
+      <button id="btn-en" aria-pressed="false">English</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= Japanese ================= -->
+    <article id="ja">
+      <div class="card section">
+        <p>KeyRoid（以下、「当方」）は、モバイルアプリ「<strong>絶望チャレンジャー</strong>」（以下、「本アプリ」）を提供します。本ポリシーは本アプリにおける情報の取扱いを定めるものです。本アプリの利用により本ポリシーに同意したものとみなします。</p>
+      </div>
+
+      <h2>1. 取得する情報</h2>
+      <p>本アプリは、ユーザーの個人情報（氏名・住所・電話番号・メール等）を<strong>自動的に収集しません</strong>。ただし、以下のデータを端末内やストア決済の範囲で扱います。</p>
+      <table>
+        <thead><tr><th>区分</th><th>内容</th><th>保存場所</th><th>目的</th></tr></thead>
+        <tbody>
+          <tr><td>設定・購読状態</td><td>サブスク状態・アプリ設定等</td><td>端末内（SharedPreferences）</td><td>機能提供・UI表示</td></tr>
+          <tr><td>チャレンジ記録</td><td>挑戦内容・日付・達成状況 等</td><td>端末内（Drift / AppDatabase）</td><td>履歴保存・統計表示</td></tr>
+          <tr><td>購入情報</td><td>購入済み/未購入・トランザクションID 等</td><td>各ストアの課金システム</td><td>プレミアム認証</td></tr>
+        </tbody>
+      </table>
+      <p class="muted">※ 連絡先・写真・マイク・正確な位置情報等にはアクセスしません。</p>
+
+      <h2>2. 利用目的</h2>
+      <ul>
+        <li>アプリ機能の提供・改善</li>
+        <li>サブスクリプション状態の確認・管理</li>
+        <li>不具合時の原因調査（将来的導入を含む）</li>
+      </ul>
+      <p>取得した情報を第三者へ販売・貸与・共有することはありません。</p>
+
+      <h2>3. 保存と削除</h2>
+      <ul>
+        <li>保存される情報は<strong>ユーザー端末内</strong>に保管されます。</li>
+        <li>当方のサーバーへ送信されることはありません。</li>
+        <li>アンインストールで端末内データを削除できます。</li>
+      </ul>
+
+      <h2>4. 外部サービスの利用</h2>
+      <p><strong>現時点では</strong>、Firebase Analytics / Firebase Crashlytics 等の解析・クラッシュ収集サービスは使用していません。また、外部APIへのデータ送信やトラッキング機能も搭載していません。</p>
+      <p>ただし、将来的に以下の目的で導入する可能性があります。導入時は本ポリシーを更新し、目的と範囲を明示します。</p>
+      <ul>
+        <li>安定性・パフォーマンスの向上</li>
+        <li>エラー解析・利用傾向の把握</li>
+        <li>機能改善のための匿名統計</li>
+      </ul>
+      <p>将来想定されるサービス：</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Firebase Analytics（Google）</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Crashlytics（Google）</a></li>
+        <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">Google Play Billing</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple App Store</a></li>
+      </ul>
+
+      <h2>5. 未成年者のプライバシー</h2>
+      <p>本アプリは<strong>13歳未満</strong>を対象としていません。該当情報を誤って受領した場合は、連絡をいただければ速やかに削除します。</p>
+
+      <h2>6. セキュリティ</h2>
+      <p>端末内保存等の合理的な対策を講じますが、通信の性質上、100%の安全は保証できません。</p>
+
+      <h2>7. ユーザーの権利</h2>
+      <p>居住地域の法令に基づく閲覧・訂正・削除等の権利を行使できます。以下へご連絡ください： <a href="mailto:support@keyroid.app">support@keyroid.app</a></p>
+
+      <h2>8. 変更</h2>
+      <p>機能追加や外部サービス導入の際は本ポリシーを改定します。最新版は本ページで公開します。</p>
+    </article>
+
+    <!-- ================= English ================= -->
+    <article id="en" class="hidden">
+      <div class="card section">
+        <p>KeyRoid (“we”) provides the mobile application <strong>Despair Challenger</strong> (“the App”). This Policy describes how information is handled in the App. By using the App, you agree to this Policy.</p>
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>The App does <strong>not</strong> automatically collect personally identifiable information (such as name, address, phone, email). We handle the following data locally or within the store billing scope:</p>
+      <table>
+        <thead><tr><th>Type</th><th>Details</th><th>Where Stored</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Settings & Subscription</td><td>Subscription state, app settings</td><td>On-device (SharedPreferences)</td><td>Provide features / UI state</td></tr>
+          <tr><td>Challenge Records</td><td>Challenge notes, dates, completion</td><td>On-device (Drift / AppDatabase)</td><td>History & stats</td></tr>
+          <tr><td>Purchase Info</td><td>Purchased/Not purchased, transaction ID</td><td>Store billing system</td><td>Premium verification</td></tr>
+        </tbody>
+      </table>
+      <p class="muted">We do not access contacts, photos, microphone, or precise location.</p>
+
+      <h2>2. How We Use Information</h2>
+      <ul>
+        <li>Provide and improve app features</li>
+        <li>Verify and manage subscription status</li>
+        <li>Troubleshooting if issues occur (including possible future tooling)</li>
+      </ul>
+      <p>We do not sell, rent, or share collected data with third parties.</p>
+
+      <h2>3. Storage & Deletion</h2>
+      <ul>
+        <li>All data is stored <strong>on your device</strong>.</li>
+        <li>No data is sent to our servers.</li>
+        <li>Uninstalling the App removes on-device data.</li>
+      </ul>
+
+      <h2>4. Third-Party Services</h2>
+      <p><strong>Currently</strong>, the App does not use analytics or crash-reporting services such as Firebase Analytics or Firebase Crashlytics. No outbound tracking or external API transmissions are implemented.</p>
+      <p>However, we may introduce such services in the future for:</p>
+      <ul>
+        <li>Stability and performance improvements</li>
+        <li>Error analysis and usage insights</li>
+        <li>Anonymous statistics for feature planning</li>
+      </ul>
+      <p>Potential services (if introduced, this Policy will be updated):</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Firebase Analytics (Google)</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Crashlytics (Google)</a></li>
+        <li><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">Google Play Billing</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple App Store</a></li>
+      </ul>
+
+      <h2>5. Children’s Privacy</h2>
+      <p>The App is not intended for children under 13. If we inadvertently receive such information, please contact us and we will delete it promptly.</p>
+
+      <h2>6. Security</h2>
+      <p>We take reasonable measures to protect data, but no online service can guarantee 100% security.</p>
+
+      <h2>7. Your Rights</h2>
+      <p>Depending on your region, you may request access, correction, or deletion of your data. Contact: <a href="mailto:support@keyroid.app">support@keyroid.app</a></p>
+
+      <h2>8. Changes</h2>
+      <p>We will update this Policy upon feature changes or when introducing third-party services. The latest version will always be available on this page.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div>© <span id="y"></span> KeyRoid</div>
+  </footer>
+
+  <script>
+    const $ = sel => document.querySelector(sel);
+    const ja = $('#ja'), en = $('#en'), bja = $('#btn-ja'), ben = $('#btn-en');
+    const setLang = (lang) => {
+      if (lang === 'en') { en.classList.remove('hidden'); ja.classList.add('hidden'); ben.classList.add('active'); bja.classList.remove('active'); }
+      else { ja.classList.remove('hidden'); en.classList.add('hidden'); bja.classList.add('active'); ben.classList.remove('active'); }
+      localStorage.setItem('privacy_lang', lang);
+    };
+    bja.onclick = () => setLang('ja');
+    ben.onclick = () => setLang('en');
+    setLang(localStorage.getItem('privacy_lang') || (navigator.language.startsWith('ja') ? 'ja' : 'en'));
+    $('#y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
