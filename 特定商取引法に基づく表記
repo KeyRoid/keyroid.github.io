@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>特定商取引法に基づく表記 - KeyRoid</title>
+  <meta name="description" content="特定商取引法に基づく表記（KeyRoid / 絶望チャレンジャー）">
+  <style>
+    body { font-family: system-ui, -apple-system, 'Noto Sans JP', sans-serif; line-height: 1.8; color: #111; background: #fff; margin: 0; padding: 40px 20px; }
+    main { max-width: 800px; margin: auto; }
+    h1 { font-size: 1.6rem; border-bottom: 2px solid #222; padding-bottom: 6px; }
+    h2 { margin-top: 28px; font-size: 1.2rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { border: 1px solid #e0e0e0; padding: 10px; text-align: left; vertical-align: top; }
+    th { width: 35%; background: #fafafa; }
+    footer { margin-top: 40px; font-size: 0.9rem; color: #666; text-align: center; }
+    a { color: #1a73e8; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>特定商取引法に基づく表記</h1>
+
+    <table>
+      <tr>
+        <th>販売事業者名</th>
+        <td>KeyRoid（個人開発者）</td>
+      </tr>
+      <tr>
+        <th>運営統括責任者</th>
+        <td>大澤健太（個人事業主）</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>
+          現在は個人開発段階のため、<strong>販売開始時に開示予定</strong>です。  
+          法令に基づく請求があった場合、速やかに開示いたします。
+        </td>
+      </tr>
+      <tr>
+        <th>連絡先</th>
+        <td>
+          現在準備中（販売開始時に専用メールアドレスを公開予定）  
+          <br>お問い合わせは公開後の窓口よりお願いいたします。
+        </td>
+      </tr>
+      <tr>
+        <th>販売URL</th>
+        <td><a href="https://keyroid.github.io/">https://keyroid.github.io/</a></td>
+      </tr>
+      <tr>
+        <th>販売価格</th>
+        <td>アプリ内画面および各ストアで表示される価格に従います（税込）。</td>
+      </tr>
+      <tr>
+        <th>商品代金以外の必要料金</th>
+        <td>インターネット接続にかかる通信料（通信事業者の契約内容に基づく）。</td>
+      </tr>
+      <tr>
+        <th>お支払い方法</th>
+        <td>各アプリストア（Google Play / Apple App Store）の決済システムによる。</td>
+      </tr>
+      <tr>
+        <th>お支払い時期</th>
+        <td>各ストアの定める課金タイミングに準じます。</td>
+      </tr>
+      <tr>
+        <th>商品の引渡時期</th>
+        <td>決済完了後、即時アプリ内でプレミアム機能が利用可能になります。</td>
+      </tr>
+      <tr>
+        <th>返品・キャンセルについて</th>
+        <td>
+          デジタルコンテンツの性質上、購入確定後の返金・キャンセルはできません。  
+          ただし、各ストアの定める返金ポリシーが適用される場合があります。
+        </td>
+      </tr>
+      <tr>
+        <th>動作環境</th>
+        <td>対応OSやバージョンは各ストアに記載しています。</td>
+      </tr>
+      <tr>
+        <th>表現及び商品に関する注意書き</th>
+        <td>本アプリは挑戦記録・内省支援ツールであり、医療・治療・カウンセリングを目的とするものではありません。</td>
+      </tr>
+    </table>
+
+    <h2>販売対象国</h2>
+    <p>本アプリは日本を含む複数国で配信予定ですが、販売および課金は各国ストアのポリシーに従います。</p>
+
+    <footer>
+      © <span id="y"></span> KeyRoid
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
